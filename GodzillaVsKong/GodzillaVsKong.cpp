@@ -23,6 +23,7 @@ int main()
 
     double outlay = otfitOutlay + decorOutlay;
 
+
     cout << fixed << setprecision(2);
     if (outlay > budget) {
         cout << "Not enough money!" << endl;
