@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorldSwimmingRecord", "Worl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shopping", "Shopping\Shopping.vcxproj", "{C8B0E487-AAAF-4AB1-AC7F-6F218C2A42F4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LunchBreak", "LunchBreak\LunchBreak.vcxproj", "{312F2AC4-56C5-4183-ACC6-912EDEA34D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{C8B0E487-AAAF-4AB1-AC7F-6F218C2A42F4}.Release|x64.Build.0 = Release|x64
 		{C8B0E487-AAAF-4AB1-AC7F-6F218C2A42F4}.Release|x86.ActiveCfg = Release|Win32
 		{C8B0E487-AAAF-4AB1-AC7F-6F218C2A42F4}.Release|x86.Build.0 = Release|Win32
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Debug|x64.ActiveCfg = Debug|x64
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Debug|x64.Build.0 = Debug|x64
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Debug|x86.ActiveCfg = Debug|Win32
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Debug|x86.Build.0 = Debug|Win32
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Release|x64.ActiveCfg = Release|x64
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Release|x64.Build.0 = Release|x64
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Release|x86.ActiveCfg = Release|Win32
+		{312F2AC4-56C5-4183-ACC6-912EDEA34D15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
