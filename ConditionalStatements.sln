@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PipesInPool", "PipesInPool\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SleepyTomCat", "SleepyTomCat\SleepyTomCat.vcxproj", "{BFC80F1B-31BF-46C3-82E6-B8B4BDCC8D7A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harvest", "Harvest\Harvest.vcxproj", "{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{BFC80F1B-31BF-46C3-82E6-B8B4BDCC8D7A}.Release|x64.Build.0 = Release|x64
 		{BFC80F1B-31BF-46C3-82E6-B8B4BDCC8D7A}.Release|x86.ActiveCfg = Release|Win32
 		{BFC80F1B-31BF-46C3-82E6-B8B4BDCC8D7A}.Release|x86.Build.0 = Release|Win32
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Debug|x64.ActiveCfg = Debug|x64
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Debug|x64.Build.0 = Debug|x64
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Debug|x86.Build.0 = Debug|Win32
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Release|x64.ActiveCfg = Release|x64
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Release|x64.Build.0 = Release|x64
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Release|x86.ActiveCfg = Release|Win32
+		{A116B3F9-818A-4DBB-8ABF-810D8C76C48B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

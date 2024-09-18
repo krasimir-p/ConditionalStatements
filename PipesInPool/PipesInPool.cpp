@@ -16,16 +16,13 @@ int main()
     double secondPipeDebit = hoursWorkerOut * secondPipeDebitForHour;
     double waterInPool = firstPipeDebit + secondPipeDebit;
 
-    double firstPipeDebitInPercents = (firstPipeDebit /waterInPool) * 100;
-    double secondPipeDebitInPercents = 100 - firstPipeDebitInPercents;
-    //double secondPipeDebitInPercents = (secondPipeDebit / waterInPool) * 100;
-    //double firstPipeDebitInPercents = 100 - secondPipeDebitInPercents;
-    double waterInPoolInPercents = (waterInPool / v) * 100;
-    int overflow = waterInPool - v;
-
     cout << fixed << setprecision(2);
-    if (overflow <= 0) {
-    //if (overflow < 0) {
+    if (v>=waterInPool) {
+        
+        double firstPipeDebitInPercents = (firstPipeDebit / waterInPool) * 100;
+        double secondPipeDebitInPercents = 100 - firstPipeDebitInPercents;
+        double waterInPoolInPercents = (waterInPool / v) * 100;
+        
         cout 
             << "The pool is " 
             << waterInPoolInPercents 
@@ -37,6 +34,9 @@ int main()
             << endl;
     }
     else {
+       
+        double overflow = waterInPool - v;
+
         cout 
             << "For " 
             << hoursWorkerOut 
