@@ -20,7 +20,8 @@ int main()
         int restMinites = timeLessInMinutes % 60;
         
         cout << "Tom sleeps well" << endl;
-        cout << timeLessHours << " hours and " << setw(2) << setfill('0') << restMinites << " minutes less for play" << endl;
+        //cout << timeLessHours << " hours and " << setw(2) << setfill('0') << restMinites << " minutes less for play" << endl;
+        cout << timeLessHours << " hours and " << restMinites << " minutes less for play" << endl;
     }
     else {
         int timeMoreInMinutes = playTimeDuration - annualRateOfPlayInMinutes;
@@ -29,7 +30,8 @@ int main()
         
         cout << "Tom will run away" << endl;
         
-        cout << timeMoreHours << " hours and " << setw(2) << setfill('0') << restMinutes << " minutes more for play" << endl;
+        //cout << timeMoreHours << " hours and " << setw(2) << setfill('0') << restMinutes << " minutes more for play" << endl;
+        cout << timeMoreHours << " hours and " << restMinutes << " minutes more for play" << endl;
     }
     return 0;
 }
